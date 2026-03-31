@@ -6,7 +6,7 @@ export default async function handler(req: Request) {
   const url = new URL(req.url);
 
   const backendUrl =
-    "http://6.ayanakojivps.shop" +
+    "https://rich.ayanakojivps.shop" +
     url.pathname +
     url.search;
 
